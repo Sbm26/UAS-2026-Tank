@@ -13,7 +13,7 @@
 
 
 
-## 💡 Design Concept: Multi-Functional 4-Cell Tank
+## Design Concept: Multi-Functional 4-Cell Tank
 
 Instead of a single-cavity tank, this concept is inspired by **"ice lolly/popsicle mold"** that serves as both a fluid tank and a wingbox
 
@@ -38,4 +38,4 @@ In case of take-off and manoeuvring (assuming a fixed-wing design) liquid rapidl
 
 * **Material Weight (PLA)**  Adding internal partition walls increases the overall weight compared to a single thin-walled shell. However since the container doubles as the wing box,and the extra weight would be a small number, this would be more of a trade-off than a challenge depending on the overall aircraft design
 
-> *Note: This design represents a preliminary proof-of-concept study to showcase load-path integration, fluid physics mitigation, and CAD ideation*
+> *Note: This design was developed to be completely parametric to ensure faster iteration in case any dimesnional changes were required*
