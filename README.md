@@ -22,7 +22,7 @@ Instead of a single-cavity tank, this concept is inspired by **"ice lolly/popsic
 
 ### 1. Sloshing & Free Surface Effect 
 In case of take-off and manoeuvring (assuming a fixed-wing design) liquid rapidly surges to one side. This **Free Surface Effect** shifts the aircraft’s Center of Gravity, creating force moments that can overpower flight control surfaces
-* Splitting the volume into **four $0.5\text{L}$ isolated compartments** restricts fluid movement and damps slosh momentum
+* Splitting the volume into **four $0.5\text{L}$ separate compartments** restricts fluid movement and damps slosh momentum
 
 ### 2. Wingbox Integration
 * There is a channel and mounting bosses in central partition wall 
