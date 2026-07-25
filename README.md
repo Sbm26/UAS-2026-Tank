@@ -1,10 +1,8 @@
 # 🛸 IMechE UAS 2026 Payload & Wing Box Design
 - I didn't participate in the UAS Challenge 2026 as I wasn't a student anymore. However since I was following the team and developements closely I came up with this concept
 
-> **Project Type:** Independent Conceptual R&D / Trade Study  
-> **Target Competition:** IMechE UAS Challenge 2026  
-> **Primary CAD Tool:** SolidWorks  
-> **Design Status:** Conceptual Geometry & Systems Integration Study  
+> **Project Type:** Independent Conceptual R&D / Design   
+> **CAD Tool:** SolidWorks  
 
 ## 📜 2026 Mission Requirements & Constraints
 * **Mission:** agricultural mission requiring aircraft to carry and release liquid payload
@@ -35,25 +33,9 @@ In case of take-off and manoeuvring (assuming a fixed-wing design) liquid rapidl
 * Internal bottom corners feature **smooth fillets**.
 * This Reduces stress concentration points in 3D-printed PLA, prevents water being trapped in sharp $90^\circ$ corners, and ensures smooth fluid flow during dispensing
 
----
+##  Predicted Challenges
+* **Plumbing & Manifold** | Operating four isolated partitions means four individual drainage/plumbing outlets must connect into a single main dispensing tube
 
-## ⚖️ Systems Engineering Trade Study & Identified Challenges
+* **Material Weight (PLA)**  Adding internal partition walls increases the overall weight compared to a single thin-walled shell. However since the container doubles as the wing box,and the extra weight would be a small number, this would be more of a trade-off than a challenge depending on the overall aircraft design
 
-Demonstrating a critical design approach, several trade-offs were identified during geometry modeling:
-
-| Engineering Consideration | Design Challenge | Justification & Mitigation Strategy |
-| :--- | :--- | :--- |
-| **Plumbing & Manifold** | Operating four isolated partitions means four individual drainage/plumbing outlets must connect into a single main dispensing tube
-
-| **Material Weight (3D-Printed PLA)** | Adding internal partition walls increases the overall weight of PLA material compared to a single thin-walled shell. | **Negligible net weight impact:** Because the container doubles as the **wing box and spar support structure**, it eliminates the need for dedicated plywood/carbon fuselage bulkheads, balancing out the extra plastic mass. |
-
----
-
-## 📁 Repository Contents
-* `cad/` — SolidWorks 3D CAD files (`.SLDPRT`, `.STEP`) and high-resolution renders.
-* `sketches/` — Hand-drawn initial napkin sketches evaluating 1-spar vs. 2-spar pass-through layouts.
-* `calculations/` — Sizing calculations ($0.5\text{L}$ per cell + $10\%$ extra volume for headspace/ullage).
-
----
-
-> *Note: This design represents a preliminary proof-of-concept study to showcase load-path integration, fluid physics mitigation, and CAD ideation.*
+> *Note: This design represents a preliminary proof-of-concept study to showcase load-path integration, fluid physics mitigation, and CAD ideation*
