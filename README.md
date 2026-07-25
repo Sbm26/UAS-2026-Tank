@@ -17,7 +17,7 @@
 
 Instead of a single-cavity tank, this concept is inspired by **"ice lolly/popsicle mold"** that serves as both a fluid tank and a wingbox
 
-![CAD Render](tbc)
+![CAD Render](water-tank-CAD.jpg)
 *(Figure 1: 3D CAD model of the concept in SolidWorks)*
 
 ### 1. Sloshing & Free Surface Effect 
