@@ -34,8 +34,8 @@ In case of take-off and manoeuvring (assuming a fixed-wing design) liquid rapidl
 * This prevents water being trapped in sharp $90^\circ$ corners, and ensures smooth fluid flow during dispensing
 
 ##  Predicted Challenges
-* **Plumbing & Manifold** | Operating four isolated partitions means four individual drainage/plumbing outlets must connect into a single main dispensing tube
+* **Plumbing & Manifold:** Operating four isolated partitions means four individual drainage/plumbing outlets must connect into a single main dispensing tube
 
-* **Material Weight (PLA)**  Adding internal partition walls increases the overall weight compared to a single thin-walled shell. However since the container doubles as the wing box,and the extra weight would be a small number, this would be more of a trade-off than a challenge depending on the overall aircraft design
+* **Material Weight (PLA):**  Adding internal partition walls increases the overall weight compared to a single thin-walled shell (The current design weights about 430 g). However since the container doubles as the wing box,and the extra weight would be a small number, this would be more of a trade-off than a challenge depending on the overall aircraft design
 
 > *Note: This design was developed to be completely parametric to ensure faster iteration in case any dimesnional changes were required*
